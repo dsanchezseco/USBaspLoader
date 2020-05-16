@@ -42,7 +42,7 @@ DANGEROUS=0
 # usbasp
 # usbtiny
 # avrisp (aka pro micro)
-PROGRAMMER := usbasp
+PROGRAMMER ?= usbasp
 
 # PORT specifies the port in which to find the programmer
 PORT ?=
