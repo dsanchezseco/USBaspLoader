@@ -14,12 +14,12 @@ match your wiring.
 To flash the USBasp bootloader to the DEVICE use the following command:
 
 *note than DEVICE, PROGRAMMER and PORT could be different for you. The supported*
-*programmers and ports are:*
+*programmers and ports are: (default device is atmega32)*
 ```
 PROGRAMMER  | PORT
 ------------+--------------
 avrisp      | /dev/ttyACM*
-usbasp      | not required
+usbasp      | not required - default
 usbtiny     | not required
 pony-stk200 | not required
 ```
