@@ -3,7 +3,7 @@
 Modded USBaspLoader to support with out changes in the code different
 programmers and devices.
 
-#### Note than the bootloaderconfig.h is currently configured for Punk75 keyboard
+#### Note than the bootloaderconfig.h is currently configured for sImCP keyboard
 D- being port D3 and BOOT(jumper) being port D4. You may need to change those to
 match your wiring.
 
